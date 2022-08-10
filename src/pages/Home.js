@@ -3,7 +3,6 @@ import AreaList from "../components/AreaList";
 import { prefData } from "../data";
 
 const Home = () => {
-  console.log(prefData.tohoku);
   return (
     <div className="top">
       <h1 className="top__title">■都道府県を選択してください</h1>

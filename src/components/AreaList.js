@@ -7,8 +7,8 @@ const AreaList = (props) => {
       <dt className="list__title">{props.title}</dt>
       <dd className="list__data">
         <ul>
-          {props.data.map((pref) => (
-            <li>
+          {props.data.map((pref, index) => (
+            <li key={index}>
               <Link to={pref.id}>{pref.name}</Link>
             </li>
           ))}

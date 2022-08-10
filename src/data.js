@@ -35,3 +35,31 @@ export const prefData = {
     { id: "okinawa", name: "沖縄県" },
   ],
 };
+
+export const supermarkets = [
+  {
+    id: "1",
+    name: "フレスタ渋谷店",
+    image1: "supermarket.png",
+    image2: "supermarket2.jpg",
+    description:
+      "つれづれなるまゝに、日くらし硯に向かひて、心にうつりゆくよしなしごとをそこはかとなく書き付くれば、あやしうこそ物狂ほしけれ。",
+    campaignLink: "https://www.google.com/",
+  },
+  {
+    id: "2",
+    name: "ライフ渋谷東店",
+    image1: "supermarket.png",
+    description:
+      "よろづにいみじくとも、色好まざらん男は、いとさうざうしく、玉の巵（さかづき）の底なき心地ぞすべき。露霜にしほたれて、所さだめずまどひ歩（あり）き、親のいさめ、世のそしりをつつむに心のいとまなく、あふさきるさに思ひ乱れ、さるはひとり寢がちに、まどろむ夜なきこそをかしけれ。さりとて、ひたすらたはれたる方にはあらで、女にたやすからず思はれんこそ、あらまほしかるべき業（わざ）なれ。",
+    campaignLink: "https://www.yahoo.co.jp/",
+  },
+  {
+    id: "3",
+    name: "マルエツプチ",
+    image2: "supermarket2.jpg",
+    description:
+      "あだし野の露消ゆる時なく、鳥部山の煙立ちさらでのみ住み果つる習ひならば、いかに物の哀れもなからん。世は定めなきこそいみじけれ。命あるものを見るに、人ばかり久しきはなし。",
+    campaignLink: "https://www.goo.ne.jp/",
+  },
+];
